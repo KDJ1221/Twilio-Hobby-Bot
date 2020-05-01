@@ -1,6 +1,7 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 import requests
+import random
 
 app = Flask(__name__)
 
@@ -26,7 +27,8 @@ def bot():
         responded = True
 
     if 'hobby' in incoming_msg:
-        hobby = "Testing hobby"
+        hobbies = open('hobbies.txt').read().splitlines()
+        hobby =random.choice(hobbies)
         msg.body(hobby)
         responded = True
 
