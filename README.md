@@ -16,6 +16,9 @@ I also added a random dog generator using the [dog API](https://dog.ceo/dog-api/
 - Generation of a random dog image from the [dog API](https://dog.ceo/dog-api/)
 - Simple "warning" message sent to users if they do not text the appropriate message for a response (i.e. "dog" or "hobby" must be contained in the message)
 
+## App Walkthough GIF
+<img src="https://media.giphy.com/media/PiRu7sQkOVUcUplF1A/giphy.gif" width=250><br>
+
 ## How to use it
 
 
