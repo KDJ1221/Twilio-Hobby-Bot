@@ -19,13 +19,11 @@ I also added a random dog generator using the [dog API](https://dog.ceo/dog-api/
 ## App Walkthough GIF
 <img src="https://media.giphy.com/media/PiRu7sQkOVUcUplF1A/giphy.gif" width=250><br>
 
-## How to use it
-
-
 
 ## Resources Used
 
 - [An online Twilio SMS app tutorial](https://www.twilio.com/blog/build-a-sms-chatbot-with-python-flask-and-twilio)
+- The [dog API](https://dog.ceo/dog-api/)
 
 ## License
 
