@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/bot', methods=['POST'])
 def bot():
     incoming_msg = request.values.get('Body', '').lower()
-    resp = MessagingReponse()
+    resp = MessagingResponse()
     msg = resp.message()
     responded = False
 
@@ -23,6 +23,11 @@ def bot():
     
     if 'cat' in incoming_msg:
         msg.media('https://cataas.com/cat')
+        responded = True
+
+    if 'hobby' in incoming_msg:
+        hobby = "Testing hobby"
+        msg.body(hobby)
         responded = True
 
     if not responded:
