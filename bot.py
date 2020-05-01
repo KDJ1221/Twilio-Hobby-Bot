@@ -12,7 +12,7 @@ def bot():
     msg = resp.message()
     responded = False
 
-    if 'dog' or 'puppy' in incoming_msg:
+    if 'dog' in incoming_msg:
         r = requests.get('https://dog.ceo/api/breeds/image/random')
         if r.status_code == 200:
             data = r.json()
@@ -26,11 +26,12 @@ def bot():
     if 'hobby' in incoming_msg:
         hobbies = open('hobbies.txt').read().splitlines()
         hobby =random.choice(hobbies)
-        msg.body(hobby)
+        msg.body(f"Your random selected hobby is {hobby}!")
+        msg.body("Even if you can't do this hobby right now, you could still learn about it and look forward to something after quarantine!")
         responded = True
 
     if not responded:
-        msg.body("Sorry, the code is busted!")
+        msg.body("Sorry, you can only answer with 'dog' or 'hobby'. Try again!")
     return str(resp)
 
 if __name__ == "__main__":
