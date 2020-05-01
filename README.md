@@ -23,6 +23,9 @@ I also added a random dog generator using the [dog API](https://dog.ceo/dog-api/
 ## Resources Used
 
 - [An online Twilio SMS app tutorial](https://www.twilio.com/blog/build-a-sms-chatbot-with-python-flask-and-twilio)
+- Twilio SMS API
+- Flask framework
+- Ngrok
 - The [dog API](https://dog.ceo/dog-api/)
 
 ## License
