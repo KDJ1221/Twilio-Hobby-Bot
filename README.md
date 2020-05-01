@@ -13,15 +13,12 @@ I also added a random dog generator using the [dog API](https://dog.ceo/dog-api/
 ## Features
 
 - Generation of a hobby out of 600 random hobbies from a text file
-- 
-- 
+- Generation of a random dog image from the [dog API](https://dog.ceo/dog-api/)
+- Simple "warning" message sent to users if they do not text the appropriate message for a response (i.e. "dog" or "hobby" must be contained in the message)
 
 ## How to use it
 
-1. Create a copy using [GitHub's repository template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) functionality
-2. Update the [`README.md`](README.md), [`package.json`](package.json) and [`app.json`](app.json) with the respective values.
-3. Build your app as necessary while making sure the tests pass.
-4. Publish your app to GitHub
+
 
 ## Resources Used
 
