@@ -12,18 +12,15 @@ def bot():
     msg = resp.message()
     responded = False
 
-    if 'quote' in incoming_msg:
-        r = requests.get('https://api.quotable.io/random')
+    if 'dog' or 'puppy' in incoming_msg:
+        r = requests.get('https://dog.ceo/api/breeds/image/random')
         if r.status_code == 200:
             data = r.json()
-            quote = f'{data["content"]} ({data["author"]})'
+            dog = data["message"]
         else:
-            quote = "Could not give you a quote"
-        msg.body(quote)
-        responded = True
-    
-    if 'cat' in incoming_msg:
-        msg.media('https://cataas.com/cat')
+            dog = "Sorry, no dogs here!"
+        
+        msg.media(dog)    
         responded = True
 
     if 'hobby' in incoming_msg:
@@ -33,7 +30,7 @@ def bot():
         responded = True
 
     if not responded:
-        msg.body("Generic response of how you're wrong")
+        msg.body("Sorry, the code is busted!")
     return str(resp)
 
 if __name__ == "__main__":
