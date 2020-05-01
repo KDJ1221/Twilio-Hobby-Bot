@@ -1,4 +1,4 @@
-# hobby-bot
+# Twilio Random Dog & Hobby Generator App
  
 <a  href="https://www.twilio.com">
 <img  src="https://static0.twilio.com/marketing/bundles/marketing/img/logos/wordmark-red.svg"  alt="Twilio"  width="250"  />
@@ -6,30 +6,9 @@
  
 # Twilio Sample App Template
 
-[![Actions Status](https://github.com/twilio-labs/sample-template-nodejs/workflows/Node%20CI/badge.svg)](https://github.com/twilio-labs/sample-appointment-reminders/actions)
-
 ## About
 
 This is a GitHub template for creating other [Twilio] sample/template apps. It contains a variety of features that should ideally be included in every Twilio sample app. You can use [GitHub's repository template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) functionality to create a copy of this.
-
-Implementations in other languages:
-
-| .NET | Java | Python | PHP | Ruby |
-| :--- | :--- | :----- | :-- | :--- |
-| TBD  | TBD  | TBD    | TBD | TBD  |
-
-### How it works
-
-This application is only a barebones Node.js application using Express.js. Whenever, possible we should be using this. However, if you are using a framework like React.js, Angular or similar that comes with their own standardized application structure, you should try to merge these by using the same `README` structure and test coverage, configuration etc. as this project.
-
-<!--
-**TODO: UML Diagram**
-
-We can render UML diagrams using [Mermaid](https://mermaidjs.github.io/).
-
-
-**TODO: Describe how it works**
--->
 
 ## Features
 
@@ -111,35 +90,11 @@ npm run dev
 
 That's it!
 
-### Tests
-
-You can run the tests locally by typing:
-
-```bash
-npm test
-```
-
 ### Cloud deployment
 
-Additionally to trying out this application locally, you can deploy it to a variety of host services. Here is a small selection of them.
-
-Please be aware that some of these might charge you for the usage or might make the source code for this application visible to the public. When in doubt research the respective hosting service first.
-
-| Service                           |                                                                                                                                                                                                                           |
-| :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [Heroku](https://www.heroku.com/) | [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)                                                                                                                                       |
-| [Glitch](https://glitch.com)      | [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/clone-from-repo?REPO_URL=https://github.com/twilio-labs/sample-template-nodejs.git) |
-| [Zeit](https://zeit.co/)          | [![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/twilio-labs/sample-template-nodejs/tree/master)                                                                 |
-
-## Resources
+## Resources Used
 
 - [GitHub's repository template](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template) functionality
-
-## Contributing
-
-This template is open source and welcomes contributions. All contributions are subject to our [Code of Conduct](https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md).
-
-[Visit the project on GitHub](https://github.com/twilio-labs/sample-template-nodejs)
 
 ## License
 
@@ -148,5 +103,3 @@ This template is open source and welcomes contributions. All contributions are s
 ## Disclaimer
 
 No warranty expressed or implied. Software is as is.
-
-[twilio]: https://www.twilio.com
